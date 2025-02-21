@@ -42,7 +42,7 @@
                             <td class="nftmax-table__column-1 nftmax-table__data-1">
                                 <div class="nftmax-table__product">
                                     <div class="nftmax-table__product-img">
-                                        <img src="img/nft-table-img1.png" alt="#">
+                                        <img src="{{ asset($transaction->batchChicken->batch_image) }}" alt="#">
                                     </div>
                                     <div class="nftmax-table__product-content">
                                         <h4 class="nftmax-table__product-title">{{ $transaction->batchChicken->batch_name ?? 'N/A' }}</h4>

@@ -4,7 +4,7 @@
 <div class="dashboard-banner__main">
     <div class="dashboard-banner__column dashboard-banner__column--two order-top">
         <div class="dashboard-banner__single-slider order-top">
-            <img src="img/active-bids-img.png" alt="#">
+            <img src="{{ asset($chicken->batch_image) }}" alt="#">
         </div>
     </div>
     <div class="dashboard-banner__column dashboard-banner__column--one">

@@ -20,8 +20,8 @@
                                     <div class="nftmax-header__author">
                                         <div class="nftmax-header__author-img"><img src="img/profile-pic.png" alt="#"></div>
                                         <div class="nftmax-header__author-content">
-                                            <h4 class="nftmax-header__author-title">Brokln Simons</h4>
-                                            <p class="nftmax-header__author-text v1"><a href="{{route('admin.dashboard')}}">@broklinslam_75</a></p>
+                                            <h4 class="nftmax-header__author-title text-capitalize">{{ Auth::user()->username }}</h4>
+                                            <p class="nftmax-header__author-text v1"><a href="{{route('admin.dashboard')}}">{{ Auth::user()->email }}</a></p>
                                         </div>
                                         
                                         <!-- NFTMax Profile Hover -->
