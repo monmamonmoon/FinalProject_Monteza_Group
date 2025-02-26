@@ -3,7 +3,7 @@
 @section('admin')
 <div class="nftmax-table mg-top-40">
     <div class="nftmax-table__heading">
-        <h3 class="nftmax-table__title mb-0">Batches Table<span class="nftmax-table__badge">435</span></h3>
+        <h3 class="nftmax-table__title mb-0">Chicken🐔 Batches Table</h3>
         <button type="button" class="nftmax-btn nftmax-btn__secondary radius" data-bs-toggle="modal" data-bs-target="#createBatchModal">
             Create Batch
         </button>
